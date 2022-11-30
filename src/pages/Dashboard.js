@@ -7,7 +7,8 @@ function Dashboard() {
 
 
   return (
-    <div >
+    <div className='bg-green-300' >
+      Dashboard?
       <Sidebar />
     </div>
   )

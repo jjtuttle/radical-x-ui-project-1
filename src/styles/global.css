@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-    
 }
 
 /*Body Style */
@@ -15,7 +14,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: var(--bg-body);
   color: var(--color-dark); /* Default App Text Color */
-
+  max-height: 500px;
   width: 100%;
 }
 

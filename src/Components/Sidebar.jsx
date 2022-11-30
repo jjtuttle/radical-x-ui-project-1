@@ -4,7 +4,8 @@ import dashboardIcon from '../assets/dashboard-icon.svg'
 
 function Sidebar() {
   return (
-    <div>
+    <div className='sidebar-container bg-red-500 max-h-full'>
+      sidebar?
       <NavLink title="Dashboard" image={dashboardIcon} />
     </div>
   )
