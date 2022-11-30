@@ -13,7 +13,7 @@ function SidePanel() {
 
 
   return (
-    <div className='bg-white m-5 pt-[1px] h-[100vh] w-[229px] rounded-[24px] '>
+    <div className='bg-white m-5 pt-[1px] h-[100vh] w-[229px] rounded-[24px] shadow-lg'>
       {/* //! LOGO - RadicalX */}
       <img
         className='m-10 bg-transparent '

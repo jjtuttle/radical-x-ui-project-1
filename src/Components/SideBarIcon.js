@@ -9,7 +9,7 @@ function SideBarIcon(props) {
 
   return (
     <>
-      <div className='flex bg-white mb-[12px]  text-[#1E1E1E] hover:bg-[#665FEF]/20 hover:text-[#793EF5] hover:rounded-[16px] py-[12px] border-[1px] border-transparent hover:border-[1px] hover:border-[#793EF5] hover:cursor-pointer '>
+      <div className='flex bg-white mb-[12px]  text-[color:var(--color-dark)] hover:bg-[color:var(--color-light-purple)] hover:text-[color:var(--color-purple)] hover:rounded-[16px] py-[12px] border-[1px] border-transparent hover:border-[1px] hover:border-[color:var(--color-purple)] hover:cursor-pointer '>
         <img className='bg-transparent ml-4 mr-3 hover:fill-[#793EF5] '
           src={props.img}
           alt="dashboard icon"
