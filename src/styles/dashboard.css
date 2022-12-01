@@ -1,0 +1,14 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 100vh;
+}
+
+.internship-container {
+  background-color: var(--color-light-purple);
+}
+
+
+
+
+

@@ -1,6 +1,35 @@
 .sidebar-container {
   box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.4);
-  border-radius: 24px;
-  background-color: pink;
+  border-radius: 1.2em;
+  background-color: var(--color-white);
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.active-link {
+  background-color: var(--color-light-purple);
+  
+}
+
+
+.link-title {
+  margin-left: 0.5em;
+}
+
+.nav-logo {
+  width: 10em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  margin-top: 1em;
 
 }
